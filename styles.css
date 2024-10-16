@@ -1,0 +1,40 @@
+#container {
+    width: 300px;
+    margin: 100px auto;
+}
+
+#numberBtns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.nummberBtn {
+    padding: 10px;
+    font-size: 20px;
+    background-color: dimgray;
+}
+
+.nummberBtn:hover{
+    background-color: grey;
+}
+
+.actionBtn {
+    background-color: darkgrey;
+}
+
+#status {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#deleteBtn {
+    height: 25px;
+    width: 25px;
+    border-radius: 30%;
+    background-color: transparent;
+    border: none;
+}
